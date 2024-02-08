@@ -100,3 +100,8 @@ ul li:nth-child(4):hover ~ #marker::before {
     background: #ff0;
     box-shadow: 0 0 15px #ff0, 0 0 30px #ff0, 0 0 45px #ff0, 0 0 60px #ff0;
 }
+
+ul li:nth-child(5):hover ~ #marker::before {
+    background: #ff308f;
+    box-shadow: 0 0 15px #ff308f, 0 0 30px #ff308f, 0 0 45px #ff308f, 0 0 60px #ff308f;
+}
