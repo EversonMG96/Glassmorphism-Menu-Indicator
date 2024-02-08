@@ -87,7 +87,6 @@ ul li:nth-last-child(2) a {
 }
 
 ul li:nth-child(2):hover ~ #marker::before {
-     background: #5da6ff;
-    box-shadow: 0 0 15px #5da6ff, 0 0 30px #5da6ff, 0 0 45px #5da6ff, 0 0 60px #5da6ff;
-
+    background: #f00;
+    box-shadow: 0 0 15px #f00, 0 0 30px #f00, 0 0 45px #f00, 0 0 60px #f00;
 }
