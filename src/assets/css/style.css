@@ -54,7 +54,7 @@ ul li:first-child a {
     border-bottom-left-radius: 30px;
 }
 
-ul li:last-child(2) a {
+ul li:nth-last-child(2) a {
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;  
 } 
@@ -66,4 +66,18 @@ ul li:last-child(2) a {
     height: 41px;
     z-index: 1;
     transition: 0.5s;
+}
+
+#marker::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transition: 0.5s;
+    background: #5da6ff;
+    box-shadow: 0 0 15px #5da6ff, 0 0 30px #5da6ff, 0 0 45px #5da6ff, 0 0 60px #5da6ff;
 }
