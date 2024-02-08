@@ -36,6 +36,7 @@ ul li a {
     border-top: 1px solid rgba(255, 255, 255, 0.1);
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     z-index: 1000;
+    overflow: hidden;
 }
 
 ul li a::before {
@@ -52,3 +53,8 @@ ul li:first-child a {
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
 }
+
+ul li:last-child a {
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;  
+} 
